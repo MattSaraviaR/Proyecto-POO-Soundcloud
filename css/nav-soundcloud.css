@@ -1,0 +1,62 @@
+
+.icono{
+    background-color: #FF3A00;
+    width: 4.4rem;   
+    height:2.85rem;
+    margin-left: 3.4375rem;
+   
+}
+.enlace-nav{
+       color: white;
+
+        
+}
+.btn-navbar{
+    background-color: #333333;
+    height:2.8rem;
+    width: 6.4rem;
+    border: none;
+    color: white;
+}
+#btn-inicio{
+    background-color: #111111;
+}
+
+#barra-busqueda{
+    width: 26.5rem;
+    height: 1.7rem;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#btn-busqueda{
+    background-color: #E5E5E5; 
+    height: 1.7rem;
+    border-radius: 5px;
+    border-color: transparent;
+
+
+}
+#btn-subir{
+    width: 4.6rem;
+}
+
+.dropd-nav{
+    background-color: #333333;
+    width: 13rem;
+    height:2.85rem;
+    color: white;
+    border: none;
+    border-radius: none;
+}
+.dropdown-item{
+    background-color: #333333;
+    color: white;
+}
+.icn-navbar{
+    width: 3.5rem;
+    height:2.8rem;
+    border: none;
+    color: white;
+    background-color: #333333;
+}
