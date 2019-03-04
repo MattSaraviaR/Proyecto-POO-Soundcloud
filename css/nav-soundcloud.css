@@ -1,19 +1,24 @@
 
+#nav-principal{
+    height: 2.8rem;
+    background-color: #333333 !important;   
+}
 .icono{
-    background-color: #FF3A00;
-    width: 4.4rem;   
-    height:2.85rem;
-    margin-left: 3.4375rem;
-   
+    height: 2.8rem;
+    height: 100%;
 }
 .enlace-nav{
        color: white;
 
         
 }
+#navbarCollapse{
+    margin-right:3.375rem; 
+}
 .btn-navbar{
     background-color: #333333;
-    height:2.8rem;
+    max-height:2.8rem;
+    height: 100%;
     width: 6.4rem;
     border: none;
     color: white;
@@ -43,8 +48,10 @@
 
 .dropd-nav{
     background-color: #333333;
-    width: 13rem;
-    height:2.85rem;
+    max-width: 13rem;
+    width: 100%;
+    max-height:2.8rem;
+    height: 100%;
     color: white;
     border: none;
     border-radius: none;
@@ -54,8 +61,9 @@
     color: white;
 }
 .icn-navbar{
-    width: 3.5rem;
-    height:2.8rem;
+    width: 50px;
+    max-height:2.8rem;
+    height: 100%;
     border: none;
     color: white;
     background-color: #333333;
