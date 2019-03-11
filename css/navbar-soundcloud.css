@@ -25,6 +25,11 @@ code {
   height: 100%;
   
 }
+.img-user{
+  height: 26px;
+  width: 26px;
+  border-radius: 13px;
+}
 
 .enlace-nav{
   color: white;
