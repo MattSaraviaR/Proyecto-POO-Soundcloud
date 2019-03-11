@@ -1,8 +1,15 @@
 #div-principal{
     background-color: white !important;
-    margin-top: 2.8rem;
    border-color: black;
   } 
+
+  .enlace-biblioteca{
+    font-size: 26px;
+    color: black;
+    padding-top: 2.8rem;
+    padding-left: 2rem;
+    /* text-decoration: underline; */
+  }
 
     #div-tarjetas{
     max-width: 940px;
@@ -10,6 +17,7 @@
     max-height: 268.653px;
     height: 100%;
  }
+ 
  .card{
    max-width:182px; 
    max-height: 260px;
@@ -40,3 +48,201 @@
     font-size: 11px;
 
 }
+
+#corazon{
+font-size: 300px;    
+margin-left: 35%;
+opacity: 0.2;
+
+}
+
+.a-inicio{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.enlace-biblioteca{
+  font-size: 26px;
+  color: black;
+  padding-top: 2.8rem;
+  padding-left: 2rem;
+  /* text-decoration: underline; */
+}
+
+#div-album{
+  background-color: white !important;
+  border-color: black;    
+ 
+  
+}
+
+#img-album{
+  background-size: 240px 167px;
+  margin-top: 7%;
+  margin-left: 40%;
+}
+
+#form-biblioteca-listas{
+  float: right;
+  margin-right:10px; 
+}
+
+#contenido-listas{
+  margin-left: 32px;
+
+}
+
+#drp-biblioteca-listas{
+  background-color: white;
+  border-color: orange;
+  color: orange;
+  height: 32px;
+}
+
+
+
+#encabezado-biblioteca-listas{
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+#radio{
+  margin-top: 5rem;
+  font-size: 200px;    
+  margin-left: 426px;  
+  opacity: 0.2;
+  
+  }
+
+  #encabezado-biblioteca-seguidos{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  #input-biblioteca-siguiendo{
+    width: 296px;
+  }
+
+  #img-biblioteca-seguidos{
+    width: 180px;
+    height: 180px;
+    border-radius: 95px;
+    border: 1px black;
+
+
+  }
+
+  .btn-siguiendo{
+    color: orangered;
+    border:  black 10px;
+    background-color: white;
+    width: 54px;
+    line-height: 16px;
+    font-size: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-siguiendo:hover{
+    border: solid 1px orangered;
+  }
+
+  #btn-borrar-historial{
+    width: 150px;
+    height: 22px;
+    font-size: 13px;
+    margin-right: 6px;
+    background-color: white
+  
+  }
+
+  #input-biblioteca-historial{
+    width: 281px;
+    height: 28px ;
+    opacity: 0.5;
+  }
+
+  #div-reproducir-historial{
+
+  }
+
+  .caratula-cancion-historial{
+    width: 160px;
+    height: 160px;
+  }
+
+  .reproductor-historial{
+
+  }
+
+  .boton-play-historial{
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+  }
+  .autor-rola-historial{
+    font-size: 13px;
+    opacity: 0.9;
+    margin-bottom: inherit;
+  }
+  .nombre-rola-historial{
+    font-size: 20px;
+  }
+  .publicacion-historial{
+    margin-left: 86%;
+    margin-bottom: 0px;
+  }
+  .impt-comentarios-historial{
+    width: 870px;
+    height: 20px;
+  }
+
+  .img-logo-comentarios{
+    height: 20px;
+    width: 20px;
+  }
+
+  #form-botones-acciones{
+    margin-left: 198px;
+  }
+  
+  .btn-likes-historial{
+    width: 51px;
+    height: 16px;
+    margin-right: 4px;
+    font-size: 10px;
+    margin-top: 4px;
+  }
+  .btn-likes-historial:hover{
+    border:solid orangered 1px;
+
+  }
+  #btn-likes{
+    color: orangered;
+  }
+  
+  .btn-repost-historial{
+    width: 51px;
+    height: 16px;
+    font-size: 10px;
+    margin-right: 4px;
+    margin-top: 4px;
+  }
+  .btn-compartir-historial{
+    width: 76px;
+    height: 16px;
+    font-size: 10px;
+    margin-right: 4px;
+    margin-top: 4px;
+  }
+  .btn-mas-historial{
+    width: 41px;
+    height: 16px;
+    font-size: 10px;
+    margin-right: 4px;
+    margin-top: 4px;
+  }

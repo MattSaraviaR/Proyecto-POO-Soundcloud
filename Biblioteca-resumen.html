@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Biblioteca</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+  <link rel="shorcut icon" href="img/icon.png">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/navbar-soundcloud.css">
+  <link rel="stylesheet" href="css/biblioteca.css">
+
+  
+  <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 2.8rem;
+        }     
+      }
+      @media (min-width: 768px) {
+
+        #nav-principal{
+            max-height:2.8rem;
+          }
+
+
+      }
+    </style>
+
+</head>
+
+<body  style="background-color:#F2F2F2"> 
+    <!-- Fixed navbar -->
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="nav-principal">
+        <a class="navbar-brand" href="inicio-soundcloud.html" style="margin-left:3%;"><img src="img/icono1.png" alt="SoundCloud" class="icono"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav" style="margin-right: 30px ">
+            <li class="nav-item active" id="btn-inicio" style="width: 75px;" >
+              <a class="nav-link " href="inicio-soundcloud.html" >Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"id="btn-stream"style="width: 75px;">
+              <a class="nav-link" href="#" >Stream</a>
+            </li>
+            <li class="nav-item"id="btn-biblioteca"style="width: 75px;">
+              <a class="nav-link" href="Biblioteca-resumen.html" tabindex="-1" id="btn-biblioteca">Biblioteca </a>
+            </li>
+          </ul>
+    
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search"  id="barra-busqueda">
+            <button  type="button" id="btn-busqueda"><i class="fas fa-search"></i></button>
+          </form>
+    
+          <ul class="navbar-nav mr-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="#"  id="btn-subir" >Subir</a>
+              </li>
+    
+              <li class="nav-item ">
+                <div class="dropdown show" id="dropd-nav">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropd-nav" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" style="padding-top: 0.7rem; ">
+                    Spike Spiguel 
+                  </a>
+    
+                  <div class="dropdown-menu" aria-labelledby="dropd-nav">
+                    <a class="dropdown-item" href="#">Perfil</a>
+                    <a class="dropdown-item" href="biblioteca-megusta.html">Me gusta</a>
+                    <a class="dropdown-item" href="#">Emisoras</a>
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Siguiendo</a>
+                    <a class="dropdown-item" href="#">A quien seguir</a>
+                    <a class="dropdown-item" href="#">Prueba pro</a>
+                    <a class="dropdown-item" href="#">Pistas</a>
+                  </div>
+                </div>
+              </li>
+    
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
+              </li>
+    
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
+              </li>
+    
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-ellipsis-h"></i></a>
+              </li>
+    
+    
+            </ul>
+        </div>
+      </nav>
+    </header>
+  <!-- Begin page content -->
+  <main role="main">
+  <div class="container" id="div-principal">
+    <!-- enlaces superiores -->
+        
+    
+
+          <!-- aqui van las tarjetas con las canciones  -->
+          <div class="div-tarjetas">
+            <div class="container-fluid">
+              
+              <div class="row">
+                  <div id="div-enlaces">
+                      <br>
+                        <a class="enlace-biblioteca" href="Biblioteca-resumen.html">Resumen</a>
+                        <a class="enlace-biblioteca" href="biblioteca-megusta.html">Me gusta </a>
+                        <a class="enlace-biblioteca" href="biblioteca-listas.html">Listas</a>
+                        <a class="enlace-biblioteca" href="Biblioteca-album.html">Albumes</a>
+                        <a class="enlace-biblioteca" href="biblioteca-emisoras.html">Emisoras</a>
+                        <a class="enlace-biblioteca" href="biblioteca-siguiendo.html">Siguiendo</a>
+                        <a class="enlace-biblioteca" href="biblioteca-historial.html">Historial</a>
+                        <div>  <h6 style="margin-top: 2.8rem;">Escuchadas recientemente</h6>  </div>
+                      </div> 
+                  
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+                      
+                  <div class="card">
+              <img src="img/marca-sacrificio.jpg" class="card-img-top" alt="tarjeta">
+              <div class="card-body">
+              <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+                </div>
+              </div>
+
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+                <div class="card">
+            <img src="img/marca-sacrificio.jpg" class="card-img-top" alt="tarjeta">
+            <div class="card-body">
+            <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+              <div class="card">
+          <img src="img/marca-sacrificio.jpg" class="card-img-top" alt="tarjeta">
+          <div class="card-body">
+          <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+            <div class="card">
+        <img src="img/marca-sacrificio.jpg" class="card-img-top" alt="tarjeta">
+        <div class="card-body">
+        <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+          <div class="card">
+      <img src="img/marca-sacrificio.jpg" class="card-img-top" alt="tarjeta">
+      <div class="card-body">
+      <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+        <div class="card">
+    <img src="img/marca-sacrificio.jpg" class="card-img-top" alt="tarjeta">
+    <div class="card-body">
+    <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+      </div>
+    </div>
+    
+
+
+            </div>
+              
+        
+      
+        
+
+        </div>
+        </div>
+ <!-- aqui van las tarjetas con las canciones  -->
+  <div class="div-tarjetas">
+            <div class="container-fluid">
+                <div>  <br><h6>Me gusta</h6> <br> </div>
+              <div class="row">
+            
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+                  <div class="card">
+              <img src="img/spike.png" class="card-img-top" alt="tarjeta">
+              <div class="card-body">
+              <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+                </div>
+              </div>
+
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+                <div class="card">
+            <img src="img/spike.png" class="card-img-top" alt="tarjeta">
+            <div class="card-body">
+            <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+              <div class="card">
+          <img src="img/spike.png" class="card-img-top" alt="tarjeta">
+          <div class="card-body">
+          <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+            <div class="card">
+        <img src="img/spike.png" class="card-img-top" alt="tarjeta">
+        <div class="card-body">
+        <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+          <div class="card">
+      <img src="img/spike.png" class="card-img-top" alt="tarjeta">
+      <div class="card-body">
+      <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+        <div class="card">
+    <img src="img/spike.png" class="card-img-top" alt="tarjeta">
+    <div class="card-body">
+    <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+      </div>
+    </div>
+
+            </div>
+              
+        </div>
+        </div>
+
+         <!-- aqui van las tarjetas con las canciones  -->
+  <div class="div-tarjetas">
+    <div class="container-fluid">
+        <div>  <br><h6>Albumes</h6> <br> </div>
+      <div class="row">
+    
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+          <div class="card">
+      <img src="img/full.jpg " class="card-img-top" alt="tarjeta">
+      <div class="card-body">
+      <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+        <div class="card">
+    <img src="img/full.jpg " class="card-img-top" alt="tarjeta">
+    <div class="card-body">
+    <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+      </div>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+      <div class="card">
+  <img src="img/full.jpg " class="card-img-top" alt="tarjeta">
+  <div class="card-body">
+  <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+    </div>
+  </div>
+  <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+    <div class="card">
+<img src="img/full.jpg " class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+  </div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+  <div class="card">
+<img src="img/full.jpg " class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+<div class="card">
+<img src="img/full.jpg " class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+
+    </div>
+      
+</div>
+</div>
+
+
+ <!-- aqui van las tarjetas con las canciones  -->
+ <div class="div-tarjetas">
+  <div class="container-fluid">
+      <div>  <br><h6>Emisoras que te gustan</h6> <br> </div>
+    <div class="row">
+  
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+        <div class="card">
+    <img src="img/mano-alucard.jpg" class="card-img-top" alt="tarjeta">
+    <div class="card-body">
+    <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+      </div>
+    </div>
+
+    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+      <div class="card">
+  <img src="img/mano-alucard.jpg" class="card-img-top" alt="tarjeta">
+  <div class="card-body">
+  <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+    </div>
+  </div>
+  <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+    <div class="card">
+<img src="img/mano-alucard.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+  </div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+  <div class="card">
+<img src="img/mano-alucard.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+<div class="card">
+<img src="img/mano-alucard.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+<div class="card">
+<img src="img/mano-alucard.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+
+  </div>
+    
+</div>
+</div>
+
+
+ <!-- aqui van las tarjetas con las canciones  -->
+ <div class="div-tarjetas">
+  <div class="container-fluid">
+      <div>  <br><h6>Siguiendo</h6> <br> </div>
+    <div class="row">
+  
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+        <div class="card">
+    <img src="img/pumpun.jpg" class="card-img-top" alt="tarjeta">
+    <div class="card-body">
+    <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+      </div>
+    </div>
+
+    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+      <div class="card">
+  <img src="img/pumpun.jpg" class="card-img-top" alt="tarjeta">
+  <div class="card-body">
+  <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+    </div>
+  </div>
+  <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+    <div class="card">
+<img src="img/pumpun.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+  </div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+  <div class="card">
+<img src="img/pumpun.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+<div class="card">
+<img src="img/pumpun.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+<div class="card">
+<img src="img/pumpun.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+
+  </div>
+    
+</div>
+</div>
+
+ <!-- aqui van las tarjetas con las canciones  -->
+ <div class="div-tarjetas">
+  <div class="container-fluid">
+      <div>  <br><h6>Me gusta</h6> <br> </div>
+    <div class="row">
+  
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+        <div class="card">
+    <img src="img/dr-stone.jpg" class="card-img-top" alt="tarjeta">
+    <div class="card-body">
+    <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+      </div>
+    </div>
+
+    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+      <div class="card">
+  <img src="img/dr-stone.jpg" class="card-img-top" alt="tarjeta">
+  <div class="card-body">
+  <p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+    </div>
+  </div>
+  <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+    <div class="card">
+<img src="img/dr-stone.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+  </div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+  <div class="card">
+<img src="img/dr-stone.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+<div class="card">
+<img src="img/dr-stone.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" id="div-tarjetas">
+<div class="card">
+<img src="img/dr-stone.jpg" class="card-img-top" alt="tarjeta">
+<div class="card-body">
+<p class="card-text1">una rola prrona  <p class="card-text2"> Alguien</p></p> </div> 
+</div>
+</div>
+
+  </div>
+    
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        
+      </div>   
+    
+    
+  </main>
+    
+
+  <!-- <footer class="footer mt-auto">
+    <div class="container">
+      <span class="text-muted">Aqui colocaria un reproductor de musica si tuviera unoooo</span>
+    </div>
+  </footer> -->
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

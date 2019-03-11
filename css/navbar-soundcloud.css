@@ -1,0 +1,91 @@
+
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+#nav-principal{
+  background-color: #333333 !important;  
+}
+
+.icono{
+  max-height: 2.8rem;
+  height: 100%;
+  
+}
+
+.enlace-nav{
+  color: white;
+  
+   
+}
+
+.btn-navbar{
+  background-color: #333333;
+  max-height:2.8rem;
+  height: 100%;
+  width: 103px;
+  border: none;
+  color: white;
+}
+#btn-inicio{
+width: 75px;
+margin-left: 10px;
+}
+#btn-stream{
+  width: 75px;
+  margin-left: 10px;
+  }
+
+  #btn-biblioteca{
+    width: 75px;
+    margin-left: 10px;
+    }
+
+#barra-busqueda{
+  width: 26.5rem;
+  height: 1.7rem;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  border-color: transparent;
+} 
+
+#btn-busqueda{
+  background-color: #E5E5E5; 
+  height: 1.7rem;
+  border-radius: 5px;
+  border-color: transparent;
+
+
+}
+
+#btn-subir{
+  width: 4.6rem;
+}
+
+#dropd-nav{
+  background-color: #333333;
+  max-width: 13rem;
+  width: 100%;
+  max-height:2.8rem;
+  height: 100%;
+  color: white;
+  border: none;
+  border-radius: none;
+}
+.dropdown-item{
+  background-color: #333333;
+  color: white;
+}
