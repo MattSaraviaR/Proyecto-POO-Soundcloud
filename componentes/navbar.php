@@ -1,51 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Biblioteca</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
-  <link rel="shorcut icon" href="img/icon.png">
-  <link rel="stylesheet" href="fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="css/navbar-soundcloud.css">
-  <link rel="stylesheet" href="css/biblioteca.css">
-  
-
-  
-  <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 2.8rem;
-        }     
-      }
-      @media (min-width: 768px) {
-
-        #nav-principal{
-            max-height:2.8rem;
-          }
-
-
-      }
-
-     
-    </style>
-
-</head>
-
-<body  style="background-color:#F2F2F2"> 
-    <!-- Fixed navbar -->
-    <header>
+<!-- Fixed navbar -->
+<header>
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="nav-principal">
           <a class="navbar-brand" href="inicio-soundcloud.html" style="margin-left:3%;"><img src="img/icono1.png" alt="SoundCloud" class="icono"></a>
@@ -58,10 +12,10 @@
                 <a class="nav-link " href="inicio-soundcloud.html" >Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item"id="btn-stream"style="width: 75px;">
-                <a class="nav-link" href="#" >Stream</a>
+                <a class="nav-link" href="../you/Stream(incompleta).html" >Stream</a>
               </li>
               <li class="nav-item"id="btn-biblioteca"style="width: 75px;">
-                <a class="nav-link" href="Biblioteca-resumen.html" tabindex="-1" id="btn-biblioteca">Biblioteca </a>
+                <a class="nav-link" href="biblioteca/Biblioteca-resumen.html" tabindex="-1" id="btn-biblioteca">Biblioteca </a>
               </li>
             </ul>
       
@@ -84,8 +38,8 @@
       
                     <div class="dropdown-menu" aria-labelledby="dropd-nav">
                       <a class="dropdown-item" href="#">Perfil</a>
-                      <a class="dropdown-item" href="#">Me gusta</a>
-                      <a class="dropdown-item" href="#">Emisoras</a>
+                      <a class="dropdown-item" href="biblioteca/biblioteca-megusta.php">Me gusta</a>
+                      <a class="dropdown-item" href="biblioteca/biblioteca-emisoras.php">Emisoras</a>
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Siguiendo</a>
                       <a class="dropdown-item" href="#">A quien seguir</a>
@@ -112,44 +66,3 @@
           </div>
         </nav>
       </header>
-
-  <!-- Begin page content -->
-  <main role="main">
-  <div class="container" id="div-principal">
-
-        <div id="div-enlaces">
-            <br>
-              <a class="enlace-biblioteca" href="Biblioteca-resumen.html">Resumen</a>
-              <a class="enlace-biblioteca" href="biblioteca-megusta.html">Me gusta </a>
-              <a class="enlace-biblioteca" href="biblioteca-listas.html">Listas</a>
-              <a class="enlace-biblioteca" href="Biblioteca-album.html">Albumes</a>
-              <a class="enlace-biblioteca" href="biblioteca-emisoras.html">Emisoras</a>
-              <a class="enlace-biblioteca" href="biblioteca-siguiendo.html">Siguiendo</a>
-              <a class="enlace-biblioteca" href="biblioteca-historial.html">Historial</a>
-            </div> 
-             
-            <img src="img/album.png" alt="upsi" id="img-album">   
-            <h6 style="text-align: center;">Todavia no tienes ningun me gusta</h6>
-            <a href="inicio-soundcloud.html">  <p style="text-align: center;"> Explora las listas de moda</p></a>
-          
-           
-</div>
-                  
-
-
-    
-  </main>
-    
-
-  <!-- <footer class="footer mt-auto">
-    <div class="container">
-      <span class="text-muted">Aqui colocaria un reproductor de musica si tuviera unoooo</span>
-    </div>
-  </footer> -->
-
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
-
-</html>

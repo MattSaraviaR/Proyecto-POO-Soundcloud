@@ -1,0 +1,154 @@
+
+#div-principal{
+    background-color: white !important;
+    margin-top: 2.8rem;
+    box-sizing: border-box;
+   border-color: black;
+ }
+ #div-lateral{
+    background-color: white !important;
+    margin-top: 2.8rem;
+    border: 5px;
+   border: 1px;
+ }
+
+ .div-carrusel{
+     background-color: rgb(255, 255, 255);
+     margin-top: 2rem;    
+ }
+
+#btn-actualizar{
+  width: 270px;
+  height: 30px;
+  font-size: 10px;
+  background-color: white;
+  border: none;
+  border-bottom:  1px black;
+}
+ 
+#principal{
+  background-color: white !important;
+}
+
+#btn-amigos{
+  padding-right: 85px;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-bottom: 14px;
+}
+#btn-cargar{
+  font-size: 12px;
+  opacity: 0.6;
+}
+.img-icono-side{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.recomendaciones-seguir{
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 12px;
+  margin-bottom: 8px;
+  
+
+}
+
+.btn-seguidores{
+width: 50px;
+height: 12px;
+color: black;
+font-size: 8px; 
+font-weight: normal;
+}
+.btn-pistas{
+  width: 50px;
+  height: 12px;
+  color: black;
+  font-size: 8px;
+}
+.img-pistas{
+  width: 32px;
+  height: 12px;
+}
+.form-btn{
+  padding-left: 14px;
+  margin-bottom: 20px;
+}
+
+.btn-crz{
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.6;
+  margin-right: 135px;
+}
+
+.btn-hs{
+  color: black;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.icn-cuadrado{
+  width: 50px;
+  height: 50px;
+}
+
+.nme-song{
+  font-size: 11px;
+  margin-left: 10px;
+  margin-bottom: inherit;
+  opacity: 0.8;
+}
+
+.dsc-song{
+  font-size: 11px;
+  margin-left: 10px;
+  margin-bottom: inherit;
+
+}
+.btn-grup-song{
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.btn-sng-aside{
+  height: 12px;
+  width: 40px;
+  color: black;
+  margin-right: inherit;
+  font-size: 10px;
+  opacity: 0.6;
+
+}
+.btn-calendario{
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.6;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.btn-vermas{
+  margin-top: auto;
+  color: black;
+  font-size: 12px;
+  opacity: 0.6;
+}
+#calendario{
+  margin-bottom: 20px;
+}
+
+/* aqui refefinir para acomodar al nuevo espacio */
+.publicacion-historial{
+
+}
+
+.boton-play-historial{
+
+}

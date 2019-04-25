@@ -2,80 +2,22 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Biblioteca</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
-  <link rel="shorcut icon" href="img/icon.png">
-  <link rel="stylesheet" href="fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="css/nav-soundcloud.css">
-  <link rel="stylesheet" href="css/biblioteca.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css">
+  <link rel="shorcut icon" href="../img/icon.png">
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../css/navbar-soundcloud.css">
+  <link rel="stylesheet" href="../css/biblioteca.css">
 
 
 </head>
 
 <body  style="background-color:#F2F2F2"> 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md  fixed-top bg-dark" id="nav-principal">
-      <div class="navbar-header">
-      <a href="#" style="margin-left: 3.375rem;"><img src="img/icono1.png" alt="SoundCloud" class="icono"></a>
-     </div>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <button type="button" class="btn-navbar" id="btn-inicio">Inicio</button>
-          </li>
-          <li class="nav-item active">
-            <button type="button" class="btn-navbar" id="btn-stream">Stream</button>
-          </li>
-          <li class="nav-item active">
-            <button type="button" class="btn-navbar" id="btn-biblioteca">Biblioteca</button>
-          </li>
-          <form class="form-inline">
-            <input class="barra-busqueda" type="text" placeholder="Buscar" aria-label="Buscar" id="barra-busqueda">
-            <button type="button" id="btn-busqueda">
-              <i class="fas fa-search"></i>
-            </button>
-          </form>
-          <li class="nav-item active">
-            <button type="button" class="btn-navbar" id="btn-subir">Subir</button>
-          </li>
-          <li class="nav-item active">
-            <div class="dropdown show" id="dropd-nav">
-              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" style="padding-top: 0.7rem; ">
-                Dropdown link
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Perfil</a>
-                <a class="dropdown-item" href="#">Me gusta</a>
-                <a class="dropdown-item" href="#">Emisoras</a>
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Siguiendo</a>
-                <a class="dropdown-item" href="#">A quien seguir</a>
-                <a class="dropdown-item" href="#">Prueba pro</a>
-                <a class="dropdown-item" href="#">Pistas</a>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item active">
-            <button type="button" class="icn-navbar" >
-              <i class="far fa-bell"></i> </button>
-          </li>
-          <li class="nav-item active">
-            <button type="button" class="icn-navbar" >
-              <i class="far fa-envelope"></i> </button>
-          </li>
-          <li class="nav-item active">
-            <button type="button" class="icn-navbar">
-              <i class="fas fa-ellipsis-h"></i> </button>
-          </li>
-        </ul>
-      </div>
-    
-    </nav>
+    <?php  include("navbar-biblioteca.php");?>
 
   <!-- Begin page content -->
   <main role="main">
@@ -441,8 +383,8 @@
   </footer> -->
 
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
